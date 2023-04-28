@@ -27196,12 +27196,12 @@ const MainView = ()=>{
     // If the movies array is not empty, map over the movies and return a div with the movie title for each movie
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: movies.map((movie)=>{
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
+            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
                 movie: movie
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
                 lineNumber: 27,
-                columnNumber: 17
+                columnNumber: 24
             }, undefined);
         })
     }, void 0, false, {
